@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <p>Expected Output:</p>
+        <p id="demo"></p>
+        <p id="demo1"></p>
+        
+        </head>
+        <body>
+            <script>
+            var today=new Date();
+            var month=today.getMonth()+1;
+            var date=today.getDate();
+            var year=today.getFullYear(); 
+            document.getElementById("demo").innerHTML=month+"-"+date+"-"+year+", " +month+"/"+date+"/"+year+ " or";  
+            document.getElementById("demo1").innerHTML=date+"-"+month+"-"+year+", " +date+"/"+month+"/"+year;
+                </script>
+            </body>
+    </html>
